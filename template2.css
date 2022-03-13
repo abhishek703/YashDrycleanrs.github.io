@@ -1,0 +1,624 @@
+*{margin: 0px;padding: 0px;font-family: 'Mulish', sans-serif;}
+
+body,html{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child{
+    
+  display: flex;
+ flex-grow: 1;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+.bgimage > img{
+ height: 400px;
+ width: 100%;
+ filter: brightness(0.7);
+}
+.header{
+    background-color: blue;
+    height:50px;
+    width: 168.9%;
+    display: flex;
+    flex-direction: column;
+}
+.help
+{
+    position: absolute;
+    left: 14px;
+    top: 20px;
+    color: white;
+}
+.faqs
+{
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    color:white;
+}
+.header > ul > li{
+    float: right;
+
+   
+  
+    list-style-type: none;
+    margin-top:-7px;
+    padding:0px 0px 0px 5px;
+  
+
+
+}
+
+.nav > ul{
+  display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: -15px 0px 0px 150px;
+    padding: 20px;
+    padding-left: 556px;
+    box-sizing: border-box;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+}
+    
+.nav >ul>a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.nav >ul>a:hover
+{
+   color: aqua;
+}
+#Drycleaners{
+position: absolute;
+left: 105px;
+top: 20px;
+
+color: aqua;
+    
+}
+#yash{
+    position: absolute;
+  
+    left: 70px;
+    top: 20px;
+   
+   color: blue;
+}
+#vl {
+    border-left: 2px solid white;
+    height: 30px;
+    margin-left: 47px;
+    margin-top: 15px;
+    width:0%;
+   position: absolute;
+  }
+.textsec1{
+    left: 40%;
+    top:20%;
+    position: absolute;
+    color: white;
+}
+
+.textsec1 >a{
+    background-color: blue;
+    color:white;
+    padding: 15px;
+    margin: 55px;
+    margin-top: 12px;
+    position: relative;
+   text-decoration: none;
+   font-weight: bolder;
+   position: absolute;
+}
+.textsec1 >a:hover{
+  opacity: 0.5;
+}
+
+
+#texsec2div1{
+    position: absolute;
+    top:58.8%;
+    left: 24.9%;
+    background-color: aqua;
+    margin: 5px;
+    padding: 15px 35px 15px 35px;
+    color: white;
+    font-weight: bolder;
+}
+#texsec2div2{
+    position: absolute;
+    top:58.8%;
+    left: 40%;
+    background-color: blue;
+    margin: 5px;
+    padding: 15px 2px 15px 20px;
+    color: white;
+    font-weight: bolder;
+}
+#texsec2div3{
+    position: absolute;
+    top:58.8%;
+    left: 60.1%;
+    background-color: aqua;
+    margin: 5px;
+    padding: 15px 35px 15px 35px;
+    color: white;
+    font-weight: bolder;
+}
+
+#aboutimg{
+    height: 70%;
+    width: 25%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.secondrow{
+
+    position:absolute;
+    left: 5%;
+    top: 70%;
+    width: 90%;
+    height:fit-content;
+}
+.textsec3div1{
+  position: absolute;
+  
+  
+  left: 35%;
+  top: 20%;
+}
+.textsec3div1 >h1{
+    text-align: inherit;
+}
+.textsec3div2 > ul{
+    list-style-type: none;
+    position: absolute;
+    color: aqua;
+    font-weight: bolder;
+}
+
+#one{
+   
+    top:90%;
+    left:35%
+}
+#two{
+   
+    top:90%;
+    left:55%
+}
+#three{
+   
+    top:98%;
+    left:35%
+}
+#four{
+   
+    top:98%;
+    left:55%
+}
+.thirdrow{
+    
+ 
+    position: absolute;
+    height: 50%;
+    width: 94%;
+    left: 5%;
+    top: 150%;
+    
+}
+.thirdrow >p,h1
+{
+
+    text-align: center;
+    
+}
+
+.thirdrow >div>h3{
+    text-align: center;
+    margin-top:100px;
+}
+.thirdrow >div
+{
+    height: 200px;
+    width: 200px;
+   
+    background-color: rgb(202, 205, 207);
+   float: left;
+   margin: 45px;
+}
+.img1{
+    position: absolute;
+    top:30%;
+    left: 7.5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.img2{
+    position: absolute;
+    top:30%;
+    left: 32%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.img3{
+    position: absolute;
+    top:30%;
+    left: 55.5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.img4{
+    position: absolute;
+    top:30%;
+    left: 80%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.forthrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 99%;
+    
+    position: absolute;
+    left: 0%;
+    top:200%
+    
+}
+.forthrow >div.left{
+    
+    height: 350px;
+    width: 800px;
+    margin-left: 110px;
+    
+   
+}
+.forthrow >div.left>h1{
+    
+  color:blue;
+  margin-top: 15px;
+    margin-left: -520px;
+    margin-bottom: 15px;
+   
+}
+.forthrow >div.left>p{
+    
+    
+      margin-top: 5px;
+     
+  }
+
+.forthrow >div.right{
+    
+    height: 400px;
+    width: 350px;
+    background-color:aqua;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+.forthrow >div.left>div.section1>div.section{
+   
+    height: 100px;
+    width: 165px;
+    float: left;
+    margin: 15px;
+    margin-left: 110px;
+}
+
+#sec1{
+    position: absolute;
+    top:50%;
+    left: 1%;
+}
+#sec1>h1{
+    margin-left: -145px;
+}
+#sec2{
+    position: absolute;
+    top:50%;
+    left: 25%;
+}
+#sec2>h1{
+    margin-left: -145px;
+}
+#sec3{
+    position: absolute;
+    top: 70%;
+    left: 1%;
+}
+#sec3>h1{
+    margin-left: -105px;
+}
+#sec4{
+    position: absolute;
+    top:70%;
+    left:25%;
+}
+#sec4>h1{
+    margin-left: -90px;
+}
+
+
+
+.fifthrow{
+    
+ 
+    position: absolute;
+    height: 50%;
+    width: 94%;
+    left: 5%;
+    top: 290%;
+    
+}
+.fifthrow >p,h1
+{
+
+    text-align: center;
+    
+}
+.fifthrow >div>h3{
+    text-align: center;
+    margin-top:100px;
+}
+.fifthrow >div{
+    height: 130px;
+    width: 130px;
+   border-radius: 50%;
+   background-image: linear-gradient(white,rgb(202, 205, 207));
+   float: left;
+   margin-top: 30px;
+   margin-left: 120px;
+}
+.fifthrow >div>h1{
+    margin-top: 50px;
+    color: aqua;
+    font-size: 40px;
+  
+}
+.fifthrow >div>h3{
+    margin-top: 50px;
+    color: blue;
+    font-size:21px;
+    font-weight: bolder;
+}
+.sixthrow{
+    position: absolute;
+    height: 50%;
+    width: 94%;
+    left: 5%;
+    top: 350%;
+    
+}
+
+.sixthrow >div{
+    height: 130px;
+    width:130px;
+    border-radius: 50%;
+    background-color: #cfcece;
+   float: left;
+   margin-top: 30px;
+   margin-left: 185px;
+}
+.sixthrow >div>h1{
+    margin-top: 50px;
+    color: aqua;
+    font-size: 40px;
+  
+}
+.sixthrow >div>h3{
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    font-size:21px;
+    font-weight: bolder;
+}
+.sixthrow >div.logo>p{
+    text-align: center;
+    color:rgb(75, 73, 73);
+    font-size: large;
+    margin-top: 15px;
+}
+.sixthrow >div.logo>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 95px;
+    margin-top: -50px;
+    
+}
+.sixthrow >div.logo{
+
+    height: 250px;
+    width: 300px;
+    border-radius: 0%;
+    margin-left: 5%;
+    margin-top: 10%;
+ 
+}
+.sevenrow{
+    position: absolute;
+    height: 50%;
+    width: 95%;
+    left: 5%;
+    top: 430%;
+    
+}
+
+.sevenrow >div{
+    height: 60%;
+    width:30%;
+   float: left;
+   margin-top: 30px;
+    margin-left: 15px;
+}
+.sevenrow >div.logo1{
+    background-image: url(blog-1.jpg);
+    filter: brightness(0.8);
+}
+.sevenrow >div.logo2{
+    background-image: url(blog-2.jpg);
+    filter: brightness(0.8);
+}
+.sevenrow >div.logo3{
+    background-image: url(blog-3.jpg);
+    filter: brightness(0.8);
+}
+.sevenrow >div.sevenrowtextsec1{
+    position:absolute;
+    top: 79%;
+    border: 1px solid white;
+    background-color: aliceblue;
+    height: 50%;
+    padding-top: 50px;
+    
+}
+.sevenrow >div.sevenrowtextsec2{
+    position:absolute;
+    top: 79%;
+    left: 31%;
+    border: 1px solid white;
+    background-color: aliceblue;
+    height: 50%;
+    padding-top: 50px;
+    
+}
+.sevenrow >div.sevenrowtextsec3{
+    position:absolute;
+    top: 79%;
+    left: 62%;
+    border: 1px solid white;
+    background-color: aliceblue;
+    height: 50%;
+    padding-top: 50px;
+}
+.footer1{
+    position: absolute;
+    top:510%;
+    left: 0%;
+    height: 34.9%;
+    width: 99%;
+    margin-left: 0.5%;
+    background-color: blue;
+  
+}
+#yash1{
+    position: absolute;
+    top:20%;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 50px;
+    
+}
+#Drycleaners1{
+    position: absolute;
+    top:20%;
+    margin-left: 100px;
+    color: aqua;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.footer1 >div
+{
+  margin-left: 50px;
+  font-weight: bolder;
+  color: white;
+  width: 21%;
+  margin-top: 80px;
+}
+.footer1>div.paragraph2{
+  
+    margin-top: -15%;
+    margin-left: 28%;
+    height: 80%;
+    width: 20%;
+  
+}
+.footer1>div.paragraph2>ul>li{
+  padding: 1%;
+}
+.footer2{
+    position: absolute;
+    top:545%;
+    left: 0%;
+    height: 10%;
+    width: 99%;
+    margin-left: 0.5%;
+    background-color: black;
+}
+.footer1>div.paragraph3{
+  
+    margin-top: -14%;
+    margin-left: 55%;
+    height: 80%;
+    width: 20%;
+   
+  
+}
+.footer1>div.paragraph3>ul>li{
+    padding: 1%;
+    list-style-type: none;
+    margin-left: -25px;
+  }
+  .footer1>div.paragraph3>ul>li::before{
+    content: "\00BB";
+    padding: 15px;
+  }
+.footer1>div.paragraph3>ul>li>a{
+  text-decoration: none;
+    color: white;
+}
+.fa {
+    padding: 15px;
+    height: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  
+  .fa:hover {
+     
+      background-color: white;
+      color: black;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
